@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:book_name",
+ "creation": "2022-04-05 23:02:49.176571",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "book_name",
+  "author",
+  "pdf"
+ ],
+ "fields": [
+  {
+   "fieldname": "book_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Book Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Author",
+   "options": "Author",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pdf",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "PDF",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-05 23:29:28.626705",
+ "modified_by": "Administrator",
+ "module": "E Book",
+ "name": "Book",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
