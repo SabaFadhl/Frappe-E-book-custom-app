@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ebooks *.css
+recursive-include ebooks *.csv
+recursive-include ebooks *.html
+recursive-include ebooks *.ico
+recursive-include ebooks *.js
+recursive-include ebooks *.json
+recursive-include ebooks *.md
+recursive-include ebooks *.png
+recursive-include ebooks *.py
+recursive-include ebooks *.svg
+recursive-include ebooks *.txt
+recursive-exclude ebooks *.pyc
